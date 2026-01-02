@@ -1,0 +1,136 @@
+(footprint "Mini_360_DCDC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "446f19b6-2a4a-43bb-aae3-a48a795e689a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mini_360_DCDC"
+		(at 0 -9.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "391778b5-8b1d-452f-8cd7-c7c19be982e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -10.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07a20f53-3c51-430f-aff6-67c8c03b1a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -10.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a40a7d0-3a37-41b2-a30e-a9533245d5b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -10.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46464821-4f81-4063-b45e-16888b52b87f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.514402 -5.955085)
+		(end 8.485598 3.504915)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "73ee8c09-7549-40b0-be1d-5d41054eb888")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5b5b216-d3ed-49ef-8b1c-1b05602a29ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.62 -5.08)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe44eb5c-cd92-4894-ab99-bad1ec4b4215")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d0ebf56-9a3b-4c20-bb4e-9c45143fe0e7")
+	)
+	(pad "3" thru_hole circle
+		(at -7.62 2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c7cf83d-845a-492d-bb41-ac3fd98dd810")
+	)
+	(pad "4" thru_hole circle
+		(at -7.62 -5.08)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc1bcf7c-5c8f-4247-add7-4f9502a9116c")
+	)
+	(model "${KIPRJMOD}/Library/Mini_360_DCDC.pretty/Mini_360_DCDC-BodySketch.step"
+		(offset
+			(xyz 0 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

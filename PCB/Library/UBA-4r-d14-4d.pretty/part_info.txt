@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=UBA-4R-D14T-4D (LF)(SN)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=7
+Version=1.2
+Released=2020-02-17 15:10:14
+Downloaded=2025-01-20 18:58:02
+3D=Y

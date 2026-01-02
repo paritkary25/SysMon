@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Gateron")(type "KiCad")(uri "${KIPRJMOD}/Library/Gateron.pretty")(options "")(descr ""))
+  (lib (name "USB_uba-4r-d14-4d")(type "KiCad")(uri "${KIPRJMOD}/Library/UBA-4r-d14-4d.pretty")(options "")(descr ""))
+  (lib (name "USBC_bo")(type "KiCad")(uri "${KIPRJMOD}/Library/USBC_bo.pretty")(options "")(descr ""))
+  (lib (name "Mini_360_DCDC")(type "KiCad")(uri "${KIPRJMOD}/Library/Mini_360_DCDC.pretty")(options "")(descr ""))
+  (lib (name "F1")(type "KiCad")(uri "${KIPRJMOD}/Library/F1")(options "")(descr ""))
+)

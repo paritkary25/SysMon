@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB_UBA-44-d14-4d")(type "KiCad")(uri "${KIPRJMOD}/Library/UBA-4r-d14-4d.pretty/UBA-4R-D14T-4D__LF__SN_.kicad_sym")(options "")(descr ""))
+)
