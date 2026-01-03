@@ -51,7 +51,7 @@ The PCB is designed on KiCad. For this design, two layers are sufficient. Mixed 
 ![Schematics](Images/PCB_schematics.png)
 ![Schematics](Images/PCB_layout.png)
 
-This hub is not externally powered; take care of what you are plugging in.  The USB-C bus power is set to maximum by pulling CC pins down by 5.1 kOhm (refer to USB-C specifications ![USB-C specification](https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019_0.pdf) ![USB-C PD](https://www.usb.org/sites/default/files/USB-C%20Source%20Power%20Test%20Specification%202021%2005%2024.pdf)))
+This hub is not externally powered; take care of what you are plugging in.  The USB-C bus power is set to maximum by pulling CC pins down by 5.1 kOhm (refer to USB-C specifications [USB-C specification](https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019_0.pdf) [USB-C PD specifications](https://www.usb.org/sites/default/files/USB-C%20Source%20Power%20Test%20Specification%202021%2005%2024.pdf)))
 
 ### Log
 - The footprint of the power module is not correct. A workaround involving jumpers and cutting traces is performed.
